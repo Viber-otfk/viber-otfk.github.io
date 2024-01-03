@@ -1,0 +1,10 @@
+name: Default
+
+on: push
+
+jobs:
+  default-env-variables:
+  run:
+   echo "Sviber-bot"
+   env:
+    viber-bot: ${{ secrets.SECRET_TOKEN }}
