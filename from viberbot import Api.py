@@ -17,7 +17,7 @@ viber = Api(bot_configuration)
 from flask import Flask, request, Response
 
 app = Flask(__name__)
-
+#this my comment
 @app.route('/incoming', methods=['POST'])
 def incoming():
 	#logger.debug("received request. post data: {0}".format(request.get_data()))
