@@ -10,7 +10,7 @@ from viberbot.api.bot_configuration import BotConfiguration
 bot_configuration = BotConfiguration(
 	name='otfc',
 	avatar='https://viber.com/avatar.jpg',
-	auth_token='522858ca55a7e176-d905e96302649e2b-3434e58445298988'
+	auth_token='YOUR_AUTH_TOKEN_HERE'
 )
 viber = Api(bot_configuration)
 
