@@ -4,7 +4,7 @@ import datetime
 import time
 
 # Токен бота, который выдается в процессе создания бота Telegram, вставляем вместо 'ваш токен'
-bot = telebot.TeleBot('6572447361:AAEmy-8kcvqA2J7XfjkFOBGPaRySbsOsSf8')
+bot = telebot.TeleBot('6572447361:')
 
 # Список с расписанием занятий (в моём случае списка 2, т.к. у меня есть чётная неделя и нечётная) Чётная\за знаменником = Schedule 2, Нечётная  Schedule 1
 schedule1 = {
